@@ -1,0 +1,24 @@
+{
+    "name": "dmouse/decoupling",
+    "description": "Decoupling Drupal",
+    "authors": [
+        {
+            "name": "David Flores",
+            "email": "dmousex@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "name": "hechoendrupal/drupal",
+            "url": "git@github.com:dmouse/drupal.git"
+        }
+    ],
+    "require": {
+        "hechoendrupal/drupal":"8.x-dev"
+    },
+    "autoload": {
+        "psr-0": {"Drupal\\": "lib/"},
+        "files": ["lib/Drupal/HechoEnDrupal/Installer/Bootstrap.php"]
+    }
+}
