@@ -15,7 +15,7 @@
         }
     ],
     "require": {
-        "hechoendrupal/drupal":"8.x-dev"
+        "hechoendrupal/drupal":"decoupling-dev"
     },
     "autoload": {
         "psr-0": {"Drupal\\": "lib/"},
